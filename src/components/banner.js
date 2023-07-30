@@ -1,14 +1,14 @@
 import React from 'react';
 import './banner.css';
-import BG1 from '../assets/ARbl.png'
+import BG1 from '../assets/FAbg.png'
 
 const banner = () => {
   return (
     <div className='banner-container'>
         <header className='banner-header'>
           <div className='word'>
-          <h1>FABRICATION OF GUESTED CONTROLLED WHEELCHAIR FOR PARALYZED PEOPLE</h1>
-          <p>Diploma Project APR-2021</p>
+          <h1>Time series analysis and forecasting</h1>
+          <p>SRET INT 300 - INTERNSHIP 2</p>
           </div>
           <div className='image'>
           <img src={BG1} alt="BG"/>

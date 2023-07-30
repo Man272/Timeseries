@@ -57,6 +57,11 @@
   text-align: center;
 }
 
+.text-center h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
 .title4 {
   background-color: #8EC5FC;
   background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
@@ -74,7 +79,7 @@
   border-radius: 15px;
   background-color: #ffffff;
   padding: 10px;
-  height: 167px;
+  height: 370px;
   width: 480px;
   margin: 10px;
 }
@@ -92,6 +97,7 @@
   font-weight: bold;
   display: flex;
   margin-left: 15px;
+  margin-bottom: 40px;
 }
 
 .box1 h4{
@@ -128,4 +134,21 @@
 
 .text-center h1 {
   text-transform: uppercase;
+}
+.text-center h2 {
+  text-transform: uppercase;
+}
+
+.slider-container {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.slider-container img {
+  width: 550px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 24px;
 }
