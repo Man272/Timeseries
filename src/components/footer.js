@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
       <p>© MR.MAN27. All Rights Reserved.</p>
-      <h1 onClick={handleManuelClick}>@MANUEL_Portfolio</h1>
+      <h1 onClick={handleManuelClick}>@Manuel's_Portfolio</h1>
     </div>
   );
 };
